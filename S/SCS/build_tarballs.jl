@@ -1,11 +1,11 @@
 using BinaryBuilder
 
 name = "SCS"
-version = v"2.1.4"
+version = v"3.0.0"
 
 # Collection of sources required to build SCSBuilder
 sources = [
-    GitSource("https://github.com/cvxgrp/scs.git", "a70a42c8c740ee756f787760ed59a8a41531e891")
+    GitSource("https://github.com/cvxgrp/scs.git", "bb0895f876fd2345e740dcac98efc75f3bcd342e")
 ]
 
 # Bash recipe for building across all platforms
